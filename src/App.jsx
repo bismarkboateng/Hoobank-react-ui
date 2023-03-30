@@ -6,17 +6,19 @@ const App = () => {
   
   return (
     <main className='bg-primary'>
-      <Navbar />
-      <Hero />
+      <div className="w-2/3 mx-auto">
+        <Navbar />
+        <Hero />
 
-      <Stats />
-      <Business />
-      <Billing />
-      <Cards />
-      <Testimonials />
-      <Companies />
-      <CTA />
-      <Footer />
+        <Stats />
+        <Business />
+        <Billing />
+        <Cards />
+        <Testimonials />
+        <Companies />
+        <CTA />
+        <Footer />
+      </div>
     </main>
   );
 }
