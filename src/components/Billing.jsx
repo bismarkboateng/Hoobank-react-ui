@@ -5,7 +5,7 @@ import styles from '../style';
 
 const Billing = () => {
   return (
-    <section className='flex-1 flex items-center justify-start my-[30px]'>
+    <section className='flex-1 flex items-center justify-start pt-[30px] my-[30px]'>
       <div className='mr-[120px]'>
         <img src={bill} alt="bill images" 
           className='w-[500px] h-[500px]' 

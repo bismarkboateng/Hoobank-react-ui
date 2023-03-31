@@ -6,7 +6,7 @@ import styles from '../style';
 const Business = () => (
   <section 
     className='my-10 
-      flex-1 flex flex-row mt-10'
+      flex-1 flex flex-row mt-10 pt-[25px]'
     
     >
 
