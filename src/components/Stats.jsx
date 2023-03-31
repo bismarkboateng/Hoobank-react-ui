@@ -4,7 +4,7 @@ import styles from '../style';
 
 const Stats = () => {
   return (
-    <div className='flex flex-row mt-10
+    <div className='flex flex-row mt-20 mb-20
         items-center justify-between font-poppins font-normal'>
       {
         stats.map( (stat) => (
