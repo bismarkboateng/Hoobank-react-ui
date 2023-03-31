@@ -1,6 +1,6 @@
 import React from 'react';
 import { Billing, Business, Cards, Companies, CTA, Footer, Hero, Navbar, Stats, Testimonials } from './components';
-import styles from './style';
+
 
 const App = () => {
   
