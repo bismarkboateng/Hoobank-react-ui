@@ -1,7 +1,7 @@
 import React from 'react';
 import { robot, arrowUp, discount } from '../assets';
 import styles from '../style';
-
+import GetStarted from './GetStarted';
 
 const Hero = () => {
     return (
@@ -36,18 +36,10 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='bg-blue-gradient rounded-full 
-                w-[100px] h-[100px] flex flex-row justtify-center items-center
-                '>
-                <p className='bg-primary rounded-full text-dimWhite 
-                    h-[100px] w-[100px]
-                    
-                 '>
-                    <p className='text-gradient text-[12px]'>
-                        Get Started
-                    </p>
-                    <img src={arrowUp} alt="arrowup" />
-                </p>
+
+            <div className='ss:flex hidden 
+                md:mr-4 mr-0'>
+                <GetStarted />
             </div>
 
             <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
